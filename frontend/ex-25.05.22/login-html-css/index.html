@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="login-screen">
+      <header>
+        <h2>ÁREA RESTRITA</h2>
+      </header>
+      <div class="login-block">
+        <div class="text">Informe suas credenciais para prosseguir</div>
+          <form action="#" method="post">
+            <div class="container">
+              <div class="inputs">
+                <label for="email" class="block">Seu e-mail:</label>
+                <br>
+                <input type="email" id="email" name="email" class="input" required/>
+              </div>
+              <br>
+              <div class="inputs">
+                <label for="password" class="block">Sua senha:</label>
+                <br>
+                <input type="password" id="password" name="password" class="input" required/>
+              </div>
+            </div>
+            <div class="div-button">
+              <button
+                type="submit"
+                class="send-button">
+                Login
+              </button>
+          </form>
+        </div>
+    </div>
+    <script src="chat.js"></script>
+  </body>
+</html>

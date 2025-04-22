@@ -1,0 +1,50 @@
+  #login-screen {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    max-width: 50%;
+    margin: 12px auto;
+    border-radius: 4%;
+    background-color: rgb(213, 221, 221);
+  }
+  
+  .login-block {
+    margin: 2%;
+    padding: 2%;
+  }
+  
+  .text {
+    justify-self: center;
+    padding-bottom: 5%;
+  }
+  
+  h2{
+    margin: 1%;
+    justify-self: center;
+    padding-top: 5%;
+  }
+  
+  .container{
+    justify-items: center;
+  }
+  
+  .div-button {
+    justify-self: center;
+    padding-top: 5%;
+  }
+  
+  .input {
+    border-radius: 5%;
+    width: 100%;
+  }
+  
+  .send-button {
+    border-radius: 5%;
+    background-color: lightgreen;
+    cursor: pointer;
+    padding: 15%;
+    border-radius: 10%;
+  }
+
+  .inputs {
+    width: 70%;
+  }
